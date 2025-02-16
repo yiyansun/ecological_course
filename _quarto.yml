@@ -3,31 +3,68 @@ project:
   output-dir: docs
 
 book:
-  title: "自然保护地景观生态学规划实验教程"
+  title: "自然保护地景观生态规划实验教程"
   author: "王原"
   date: "02/14/2025"
+  favicon: "pic1/newecoicon.jpg"
+  
+  navbar:
+    logo: "pic1/newecoicon.jpg"
+    collapse: true
+    collapse-below: lg
+    background: light
+    #reader-mode: true
+    search: true
+    right:
+      - icon: github
+    sidebar:
+      title: "城乡生态及环境规划"
+      style: "floating"
+      reader-mode: true
+
+
   chapters:
     - index.qmd
-    - 01_intro.qmd
-    - 02_portfolio.qmd
+    - 01_structure.qmd
+    - 011_fragstats.qmd
+    - 012_point.qmd
+    - 013_spatialstatistic.qmd
+    - 02_function.qmd
+    - 021_provisioning.qmd
+    - 022_regulating.qmd
+    - 023_cultural.qmd
+    - 024_supporting.qmd
+    - 025_demand.qmd
+    - 03_dynamics.qmd
+    - 031_flus.qmd
+    - 032_drivingfactor.qmd
+    - 04_patternoptimization.qmd
+    - 041_multilayerbread.qmd
+    - 042_network.qmd
+    - 043_SCP.qmd
     - 99_references.qmd
-  sidebar:
-    title: "生态规划课程"
-    style: "floating"
-    background: "light"
-    tools:
-      - icon: github
-        href: https://github.com/
-      - icon: linkedin
-        href: https://www.linkedin.com/in/
+  
+  
 
-bibliography: learning_diary.bib
-
+  page-footer:
+    right: "© 2025 王原. Licensed under CC BY-NC-ND 4.0"
+    
+bibliography: reference.bib
 format:
   html:
-    theme: pulse
-  pdf:
-    documentclass: scrreprt
-
-editor: visual
+    theme:
+      light: [cosmo, flatly]
+      dark: [cosmo, darkly]
+    code-link: true
+    css: |
+      .sidebar nav[role=doc-toc] ul > li > a {
+        font-size: 0.8rem;
+      }
+      .sidebar nav[role=doc-toc] ul > li > ul > li > a {
+        font-size: 0.6rem;
+      }
+      
+    pdf:
+    documentclass: scrbook
+#editor: visual
 

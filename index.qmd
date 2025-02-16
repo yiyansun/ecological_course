@@ -1,3 +1,5 @@
-# Welcome {.unnumbered}
+---
+bibliography: reference.bib
+---
 
-Welcome
+# 课程导论 {.unnumbered}
