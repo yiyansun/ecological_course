@@ -25,23 +25,30 @@ book:
 
   chapters:
     - index.qmd
+    #- 001_principle.qmd
     - 01_structure.qmd
-    - 011_fragstats.qmd
+    - 011_ecotect.qmd
     - 012_point.qmd
-    - 013_spatialstatistic.qmd
+    - 013_fragstats.qmd
+    
     - 02_function.qmd
-    - 021_provisioning.qmd
-    - 022_regulating.qmd
-    - 023_cultural.qmd
-    - 024_supporting.qmd
-    - 025_demand.qmd
+    - 021_habitat.qmd
+    - 022_biodiversity.qmd
+    - 023_regulating.qmd
+    - 024_provisioning.qmd
+    - 025_cultural.qmd
+    
     - 03_dynamics.qmd
     - 031_flus.qmd
     - 032_drivingfactor.qmd
-    - 04_patternoptimization.qmd
-    - 041_multilayerbread.qmd
+    - 033_scenario.qmd
+    
+    - 04_landscapeplanning.qmd
+    - 041_priority.qmd
     - 042_network.qmd
-    - 043_SCP.qmd
+    - 043_sensitivity.qmd
+    - 044_scp.qmd
+    
     - 99_references.qmd
   
   

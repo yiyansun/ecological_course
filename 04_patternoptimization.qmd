@@ -1,5 +1,0 @@
----
-bibliography: reference.bib
----
-
-# 第四章 格局优化 {.unnumbered}
